@@ -1,0 +1,19 @@
+
+button{
+    display: flex;
+    justify-content: center;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: red;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+#increment{
+    background: blueviolet;
+}
+#save{
+    background: greenyellow;
+}

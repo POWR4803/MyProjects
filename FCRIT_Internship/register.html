@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Registration Form</title>
+        <link rel="stylesheet" href="register.css">
+    </head>
+    <body>
+        <P><b>Register :</b></P>
+        <form>
+            <div class="name">
+                Name :<input type="text" name="name" placeholder="Enter Fullname">
+                <br><br>
+            </div>
+            <div>
+                Username: <input type="text" name="user" placeholder="Enter Username">
+                <br><br>
+            </div>
+            <div>
+                Password: <input type="text" name="pass" placeholder="Enter Password">
+                <br>
+            </div>
+            <p>Gender: </p>
+            <div>
+                Male <input type="checkbox" name="male">
+                <br>
+            </div>
+            <div>
+                Female <input type="checkbox" name="female">
+                <br><br>
+            </div>
+            <div>
+                <input type="checkbox" name="terms"><b> I have Read the Terms & Conditions.</b> 
+                <br><br>
+            </div>
+            <button  onclick="submit()">SUBMIT</button>
+        </form>
+        <script src="register.js"></script>
+    </body>
+</html>
