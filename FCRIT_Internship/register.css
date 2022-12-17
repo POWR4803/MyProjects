@@ -5,17 +5,14 @@ html, body {
     height: 100%; 
 }
 
-.name{
+.form{
     text-align: center;
 }
 
  fieldset{
-    color: black;
-  display: flex;
-  margin-left: 500px;
-  margin-right: 500px;
-  padding-top: 5em;
-  padding-bottom: 5em;
-  padding-left: 5em;
-  padding-right: 5em;
+    width: 50%;
+    border: 15px ridge;
+    padding: 50px;
+    margin-left: 350px;
 }
+

@@ -6,28 +6,35 @@
         <link rel="stylesheet" href="register.css">
     </head>
     <body>
-        <form action="" method="post">
+        <form action="register.php" method="post">
             <fieldset>
-            <div class="name">
-                <p><b><h1>REGISTER:</h1></b></p>
+            <div class="form">
+                <p><b><h1>COLLEGE IV:</h1></b></p>
                 <h3>
                 Name : <input type="text" name="name" placeholder="Enter Fullname">
                 <br><br>
-                Username: <input type="text" name="user" placeholder="Enter Username">
+                Branch: <input type="text" name="branch" placeholder="Enter Branch">
                 <br><br>
-                Password: <input type="text" name="pass" placeholder="Enter Password">
-                <br>
-            <p>Gender: </p>
-                Male <input type="checkbox" name="male">
-                <br>
-                Female <input type="checkbox" name="female">
+                Sem:<br> 
+                <input type="radio" name="Sem" value="1" >1
+                <input type="radio" name="Sem" value="2">2<br>
+                <input type="radio" name="Sem" value="3">3
+                <input type="radio" name="Sem" value="4">4<br>
+                <input type="radio" name="Sem" value="5">5
+                <input type="radio" name="Sem" value="6">6<br>
+                <input type="radio" name="Sem" value="7">7
+                <input type="radio" name="Sem" value="8">8<br><br>
+                 Roll.No: <input type="number" name="rno" placeholder="Enter Roll Number">
+                 <br><br>
+                 Ph.No: <input type="number" name="pno" placeholder="Enter Phone Number">    
+                <br><br>
+                Email: <input type="text" name="email" placeholder="Enter Email Id">    
                 <br><br>
                 <input type="checkbox" name="terms"><b> I have Read the Terms & Conditions.</b> 
                 <br><br></h3>
-            <button  onclick="submit()">SUBMIT</button>
+            <button>SUBMIT</button>
             </div>
             </fieldset>
         </form>
-        <script src="register.js"></script>
     </body>
 </html>
