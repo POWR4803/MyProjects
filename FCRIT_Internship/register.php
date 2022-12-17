@@ -5,7 +5,6 @@ $sem = $_POST['sem'];
 $rno = $_POST['rno'];
 $pno = $_POST['pno'];
 $email = $_POST['email'];
-
 $conn = new mysqli('localhost','root','4803','registration');
 if($conn->connect_error){
     die('Connection Failed:'.$conn->connect_error);

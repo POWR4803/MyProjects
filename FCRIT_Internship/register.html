@@ -7,7 +7,7 @@
     </head>
     <body>
         <form action="register.php" method="post">
-            <fieldset>
+            <fieldset class="box">
             <div class="form">
                 <p><b><h1>COLLEGE IV:</h1></b></p>
                 <h3>
@@ -15,7 +15,9 @@
                 <br><br>
                 Branch: <input type="text" name="branch" placeholder="Enter Branch">
                 <br><br>
-                Sem:<br> 
+                
+                Sem:<br>
+                <fieldset id="sem">
                 <input type="radio" name="Sem" value="1" >1
                 <input type="radio" name="Sem" value="2">2<br>
                 <input type="radio" name="Sem" value="3">3
@@ -24,6 +26,7 @@
                 <input type="radio" name="Sem" value="6">6<br>
                 <input type="radio" name="Sem" value="7">7
                 <input type="radio" name="Sem" value="8">8<br><br>
+                </fieldset>
                  Roll.No: <input type="number" name="rno" placeholder="Enter Roll Number">
                  <br><br>
                  Ph.No: <input type="number" name="pno" placeholder="Enter Phone Number">    
