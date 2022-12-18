@@ -1,7 +1,12 @@
-
+html,body{
+    text-align: center;
+    background-image: url(count.jpg);
+    background-repeat:  no-repeat;
+    background-size: 100%;
+    height: 100%;
+}
 button{
-    display: flex;
-    justify-content: center;
+    text-align: center;
     border: none;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -12,8 +17,10 @@ button{
     border-radius: 5px;
 }
 #increment{
+    text-align: center;
     background: blueviolet;
 }
 #save{
+    text-align: center;
     background: greenyellow;
 }

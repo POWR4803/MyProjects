@@ -1,7 +1,7 @@
 <?php
 $name = $_POST['name'];
 $branch = $_POST['branch'];
-$sem = $_POST['sem'];
+$sem = $_POST['Sem'];
 $rno = $_POST['rno'];
 $pno = $_POST['pno'];
 $email = $_POST['email'];
