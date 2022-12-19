@@ -9,17 +9,11 @@
         <form action="register.php" method="post">
             <fieldset class="box">
             <div class="form">
-                <script>function validate(){
-                    var msg = "Please enter all the Details."
-                    if(document.getElementsByName('name').value ==""){
-                     alert(msg);
-                     return false;
-                    }
-                }
+                <script src="validation.js">
                 </script>
                 <p><b><h1>COLLEGE IV:</h1></b></p>
                 <h3>
-                Name : <input type="text" name="name" placeholder="Enter Fullname">
+                Name : <input type="text" name="name" id="name" placeholder="Enter Fullname">
                 <br><br>
                 Branch: <input type="text" name="branch" placeholder="Enter Branch">
                 <br><br>
